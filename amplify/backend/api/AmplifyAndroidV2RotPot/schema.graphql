@@ -1,0 +1,7 @@
+type Movie @model {
+  id: ID!
+  title: String!
+  genre: String!
+  Director: String!
+  Year: Int!
+}

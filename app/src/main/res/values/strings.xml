@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RottenPotatoes</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Title</string>
+    <string name="genre">Genre</string>
+    <string name="director">Director</string>
+    <string name="year">Year</string>
+</resources>

@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplifyv2rottates-dev-20191006143708-authRole",
+            "UnauthRoleArn": "arn:aws:iam::525520286659:role/amplifyv2rottates-dev-20191006143708-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::525520286659:role/amplifyv2rottates-dev-20191006143708-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplifyv2rottates-dev-20191006143708-deployment",
+            "UnauthRoleName": "amplifyv2rottates-dev-20191006143708-unauthRole",
+            "StackName": "amplifyv2rottates-dev-20191006143708",
+            "StackId": "arn:aws:cloudformation:us-east-1:525520286659:stack/amplifyv2rottates-dev-20191006143708/4bcb7aa0-e868-11e9-83d5-0a009cdf2216"
+        },
+        "categories": {
+            "auth": {
+                "amplifyv2rottatesc58e2bf7": {}
+            }
+        }
+    }
+}

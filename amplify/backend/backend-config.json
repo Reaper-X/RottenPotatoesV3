@@ -1,0 +1,26 @@
+{
+	"auth": {
+		"amplifyv2rottatesc58e2bf7": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"api": {
+		"AmplifyAndroidV2RotPot": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"additionalAuthenticationProviders": [],
+					"defaultAuthentication": {
+						"authenticationType": "AMAZON_COGNITO_USER_POOLS",
+						"userPoolConfig": {
+							"userPoolId": "authamplifyv2rottatesc58e2bf7"
+						}
+					}
+				}
+			}
+		}
+	}
+}

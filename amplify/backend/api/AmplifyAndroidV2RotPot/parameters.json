@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "AmplifyAndroidV2RotPot",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authamplifyv2rottatesc58e2bf7",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

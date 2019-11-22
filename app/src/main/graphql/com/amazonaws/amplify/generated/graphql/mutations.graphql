@@ -1,0 +1,28 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateMovie($input: CreateMovieInput!) {
+  createMovie(input: $input) {
+    id
+    title
+    genre
+    Director
+    Year
+  }
+}
+mutation UpdateMovie($input: UpdateMovieInput!) {
+  updateMovie(input: $input) {
+    id
+    title
+    genre
+    Director
+    Year
+  }
+}
+mutation DeleteMovie($input: DeleteMovieInput!) {
+  deleteMovie(input: $input) {
+    id
+    title
+    genre
+    Director
+    Year
+  }
+}
