@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
         mAdapter = new MyAdapter(this);
         mRecyclerView.setAdapter(mAdapter);
-
+//
         ClientFactory.init(this);
 
         FloatingActionButton btnAddMovie = findViewById(R.id.btn_addMovie);
